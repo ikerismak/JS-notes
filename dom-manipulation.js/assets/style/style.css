@@ -1,0 +1,195 @@
+/*
+Logo de la empresa
+margen superior
+altura y ancho
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 8z0px;
+    height: 80px;
+    padding: 20px;
+}
+.nav-bar{
+
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-bar ul{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-bar ul li a{
+
+   color: white;
+   font-size: 22px;
+   text-decoration: none;
+
+}
+
+.nav-bar ul li a:hover{
+
+    color: rgb(180, 180, 180);
+    font-size: 24px;
+
+ }
+
+/*
+Menú de navegacion y lista
+display (vista en horizontal),
+ancho
+relleno
+alineacion del texto
+bordes redondeados
+tamaño de fuente
+*/
+
+nav li{
+    display:inline-block;
+    width:150px;
+    padding:6px 10px;
+    text-align:center;
+    border-radius: 15px;
+    font-size:18px;
+}
+
+/*
+Formato de hipervinculo (utilizado en menu y botones)
+sin formato de enlace
+color predeterminado
+*/
+
+a{
+    text-decoration: none;
+    color:#3A3636;
+}
+
+/*
+Secciones:
+La seccion principal y secundaria tienen el mismo formato, su diferencia es el color
+
+Principal y Secundario
+Altura,
+relleno izquierdo, abajo y arriba,
+margen,
+color de fondo rosa y celeste,
+tamaño de texto
+*/
+
+.divPrincipal{
+
+    height: 630px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    margin: -10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 22px;
+    color: #3A3636;
+}
+
+.divSecundario{
+    height: 500px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: -10px;
+    background-color:  #ffffff;;
+    font-size: 22px;
+    color: #3A3636;
+}
+
+/*
+Titulo Principal
+tipo de fuente
+margen inferior
+tamaño de fuente
+*/
+
+.h1Principal{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    font-size: 80px;
+}
+
+/*
+Formato de botones
+Color de fondo
+borde desactivado
+margen interior
+bordes redondeados
+fuente en negrita
+margen superior
+tamalño de fuente
+*/
+
+button{
+    background-color: #8fe9ff;
+    border: none;
+    padding: 18px 30px 18px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 18px;
+    width: 200px;
+}
+
+/*
+Imagenes:
+La imagen principal y secundaria tienen el mismo formato, su diferencia es la orientación (izquierda / derecha)
+
+Principal y Secundaria
+Altura, ancho
+borde redondeado
+alineación derecha / izquierda
+margen exterior derecho e izquierdo
+*/
+
+.imgPrincipal{
+    height: 100%;
+    width: 600px;
+    float: right;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.imgSecundaria{
+    height: 400px;
+    width: 350px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+footer {
+    background-color: #1a8ac8;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.logo-container{
+
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.prog-val{
+
+    width: 250px;
+}

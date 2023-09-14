@@ -1,0 +1,15 @@
+
+.visible{
+    display: none;
+}
+.visibleBad{
+    display: none;
+}
+
+.alert{
+    margin-top: 50px;
+}
+
+.empty{
+    display: none;
+}
