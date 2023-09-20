@@ -21,3 +21,28 @@ console.log(productoServidor.price);
 //Revisar informacion de un objeto tipo JSON
 console.log(productoJSON.price);
 
+
+
+
+
+// const consult = async () => {
+
+//     let response = await fetch("https://pokeapi.co/api/v2/pokemon/ditto")
+
+//     let info = await response.json()
+
+//     console.log(info)
+// }
+
+const consultClothes = async () => {
+
+    let response = await fetch("https://fakestoreapi.com/products/1")
+
+    let info = await response.json()
+
+    console.log(info)
+}
+
+
+
+consultClothes()
